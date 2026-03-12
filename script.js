@@ -12,14 +12,14 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "am i prettier than ur ex?",
+  "we need 2 talk",
+  "i feel like u hate me, do u hate me?",
+  "whatever, i'm fine, have fun..",
+  "love you 2",
+  "he's just a friend don't be dramatic",
+  "miss u honey bunny",
+  "i think we should break up.",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -41,16 +41,16 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addText("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addText("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addText("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addText("🍟🥨🌮🥗🍱");
+  if (x === "Thongs") {
+    addText("u will fall in love with ur neighbour next month");
+  } else if (x === "Heels") {
+    addText("Someone close to u thinks ur killing their vibe");
+  } else if (x === "runners") {
+    addText("The night is young, take drugs from strangers");
+  } else if (x === "boots") {
+    addText("thats my ego boost");
+  } else if (x === "none") {
+    addText("come to my crib hun");
   }
 }
 //end of dropdown function
@@ -58,21 +58,21 @@ function dropdownFun() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
+  "stacy's mom is here",
+  "gold on ya fingers",
+  "spring starts in July",
+  "sprawling, a child",
+  "yeah, call it regal",
+  "i am far too sane",
+  "stars, birds, something high",
   "get it your damn self",
-  "obey me human",
+  "my runaway bride",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
+  "the sun sets earlier here",
+  "up in flames come on baby",
+  "sickening broken pinkie",
+  "continents in the cold skin",
   "yuk, no i don't want salad",
 ];
 //code for haiku function (do not edit)
@@ -113,9 +113,8 @@ const words = [
   "barrister vs solicitor",
   "bulk billed therapy",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "contains 19 muscles, and 26 bones",
+  "cut ur nails",
 
   "delete search history",
   "delusional jealousy",
@@ -156,15 +155,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "wild rabbits, minimum wage workers, displeased teachers, news readers, lovestruck loners, tawny frogmouth owls".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "destroy ,condemn, liberate, digest, fall in love with, break out of, kiss, bite".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "the cracks in the pavement, one another, the backseat ,overgrown lawns, lost property, tinder date bars, barren panic rooms, plastic love heart keyrings".split(
       ","
     );
 // set up the counter
@@ -219,7 +218,7 @@ function processPoem() {
   if (counter > 15) {
     removeFirstLine();
   }
-  setTimeout(processPoem, 1000);
+  setTimeout(processPoem, 2000);
 }
 // Start the process
 processPoem();

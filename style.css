@@ -54,10 +54,11 @@ h5 {
 
 /* Style the card for the header/title card */
 .cardTitle {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  color: #bfbfbf;
+  box-shadow: 0 4px 8px 0 rgb(224, 227, 224); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-image: url("./img/lightning.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -158,9 +159,8 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
-  background-color: #000000;
-  background-image: url("./img/catBG.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-color: #f80606;
+  color: #e7e7ea;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
