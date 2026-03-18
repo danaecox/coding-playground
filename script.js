@@ -155,7 +155,7 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "wild rabbits, minimum wage workers, displeased teachers, news readers, lovestruck loners, tawny frogmouth owls".split(
+    "wild rabbits, minimum wage workers, displeased teachers, news readers, big toes, tawny frogmouth owls".split(
       ","
     ),
   verbs =
